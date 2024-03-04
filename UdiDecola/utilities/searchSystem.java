@@ -3,13 +3,6 @@ import java.util.*;
 //A classe SearchSystem representa o sistema de pesquisa e mantém uma lista de todas as pesquisas realizadas.
 public class SearchSystem {
     private List<Search> searches;
-    private String origin;
-    private String destination;
-    private Date startDate;
-    private Date endDate;
-    private Date searchDateTime;
-    private Date checkInDate;
-    private Date checkOutDate;
 
     public SearchSystem() {
         this.searches = new ArrayList<>();
