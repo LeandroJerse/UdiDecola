@@ -15,6 +15,7 @@ class Purchase {
     private LocalDate checkOutDate;
     private LocalDate departureDate;
 
+    //Construtor para criar um produto
     public Purchase(String purchaseType, String item, String client, LocalDateTime dateTime, double totalValue,
                     String paymentMethod, LocalDate checkInDate, LocalDate checkOutDate, LocalDate departureDate) {
         this.purchaseType = purchaseType;
@@ -31,7 +32,7 @@ class Purchase {
             this.checkOutDate = checkOutDate;
         }
     }
-
+   //Método para retornar os produtos do carrinho de compras
     @Override
     public String toString() {
         String purchaseDetails = "Purchase{" +
