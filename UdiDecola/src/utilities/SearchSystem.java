@@ -1,3 +1,5 @@
+package utilities;
+
 import java.util.*;
 
 //A classe SearchSystem representa o sistema de pesquisa e mantém uma lista de todas as pesquisas realizadas.

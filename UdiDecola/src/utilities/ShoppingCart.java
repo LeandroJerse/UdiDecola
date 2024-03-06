@@ -1,7 +1,7 @@
 package utilities;
 import java.util.ArrayList;
-import java.util.List;
 import utilities.Purchase;
+import java.util.List;
 
 public class ShoppingCart {
     private List<Purchase> purchases;
@@ -27,6 +27,5 @@ public class ShoppingCart {
         return points;
     }
 
-    public
 
 }

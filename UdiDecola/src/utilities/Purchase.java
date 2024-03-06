@@ -20,11 +20,13 @@ class Purchase {
         this.totalValue = totalValue;
         this.paymentMethod = paymentMethod;
         this.roomStay = roomStay;
-        this.checkInOutDates = checkInOutDates;
+        this.checkIn = checkIn;
+        this.checkOut=checkOut;
         this.finalValue = finalValue;
     }
 
-    @Override
+
+	@Override
     public String toString() {
         return "Purchase{" +
                 "flight='" + flight + '\'' +

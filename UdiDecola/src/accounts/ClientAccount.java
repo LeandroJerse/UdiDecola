@@ -2,6 +2,8 @@ package accounts;
 
 import java.time.LocalDate;
 
+import utilities.ShoppingCart;
+
 public class ClientAccount extends TadClientAccount {
 	
 	ShoppingCart purchasesLog;
@@ -14,7 +16,7 @@ public class ClientAccount extends TadClientAccount {
 
 	}
 	
-	public setPurchasesLog(Purchases newPurchase) {
+	public setPurchasesLog(Purchase newPurchase) {
 		purchaselog.purchases.add(newPurchase);
 	}
 	

@@ -1,6 +1,5 @@
 package utilities;
 
-package utilities;
 public class cpfChecker {
     //Checa se o CPF tem dígitos, se são onze e se não são todos iguais
 
@@ -30,5 +29,4 @@ public class cpfChecker {
         return verifyingDigit1 == Integer.parseInt(cpf.substring(9, 10)) &&
                 verifyingDigit2 == Integer.parseInt(cpf.substring(10, 11));
     }
-}
 }
