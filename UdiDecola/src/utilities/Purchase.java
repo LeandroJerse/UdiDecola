@@ -1,7 +1,7 @@
 package utilities;
 import java.time.LocalDateTime;
 import java.util.Arrays;
-class Purchase {
+public class Purchase {
     private String flight;
     private LocalDateTime dateTime;
     private String client;
