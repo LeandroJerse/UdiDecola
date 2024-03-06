@@ -2,9 +2,10 @@ package utilities;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.time.LocalDate;
 
 public class ShoppingCart {
-    private List<Purchase> purchases;
+    public List<Purchase> purchases;
     private int points;
 
     //Construtor para criar um carrinho de compras

@@ -7,7 +7,7 @@ import utilities.ShoppingCart;
 public class ClientAccount extends TadClientAccount {
 	
 	ShoppingCart purchasesLog;
-	float VipPoint;
+	float vipPoint;
 	
 	
 	
@@ -25,10 +25,20 @@ public class ClientAccount extends TadClientAccount {
 	}
 
 	public float getVipPoint() {
-		return VipPoint;
+		return vipPoint;
 	}
 	public void setVipPoint(float vipPoint) {
-		VipPoint = vipPoint;
+		this.vipPoint = vipPoint;
+	}
+
+	boolean ifCreatVip(){
+		if (vipPoint>=1000) {
+			return true;
+			
+		}
+		else{
+			return false;
+		}
 	}
 	
 	
