@@ -9,6 +9,15 @@ public abstract class TadClientAccount {
 	protected String CPF;
 	protected String fullAdress;
 	protected LocalDate birthday;
+
+	public TadClientAccount(){
+		
+	}
+
+	public TadClientAccount(String fullName,String cpf){
+		this.CPF=cpf;
+		this.fullName=fullName;
+	}
 	
 	public TadClientAccount(String fullName, String cPF, String fullAdress, LocalDate birthday) {
 		this.fullName = fullName;

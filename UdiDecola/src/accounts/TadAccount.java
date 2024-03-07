@@ -9,6 +9,8 @@ public abstract class TadAccount {
 	protected String officialName;
 	protected String publicName;
 	protected LocalDate timeOfBirth;
+
+	
 	
 	public TadAccount(String cNPJ, String officialName, String publicName, LocalDate timeOfBirth) {
 		super();

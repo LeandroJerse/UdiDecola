@@ -7,6 +7,8 @@ public class EmployeeAccount extends TadClientAccount  {
     protected String workCardNumber;
     protected double standardSalary;
 
+    
+
     public EmployeeAccount(String fullName, String cPF, String fullAdress, LocalDate birthday,String workCardNumber,double standardSalary){
         super(fullName, cPF, fullAdress, birthday);
         this.workCardNumber = workCardNumber;

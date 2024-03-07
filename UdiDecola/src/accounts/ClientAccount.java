@@ -9,8 +9,13 @@ public class ClientAccount extends TadClientAccount {
 	ShoppingCart purchasesLog;
 	float vipPoint;
 	
-	
-	
+	public ClientAccount(){
+	}
+
+	public ClientAccount(String fullName, String cPF){
+		super(fullName, cPF);
+	}
+
 	public ClientAccount(String fullName, String cPF, String fullAdress, LocalDate birthday) {
 		super(fullName, cPF, fullAdress, birthday);
 		this.fullAdress=fullName;
