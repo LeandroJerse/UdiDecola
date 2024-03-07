@@ -1,9 +1,9 @@
 package accounts;
-
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
 public abstract class TadAccount {
+	DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 	
 	protected String CNPJ;
 	protected String officialName;
@@ -43,12 +43,11 @@ public abstract class TadAccount {
 	}
 
 	public void setTimeOfBirth(String timeOfBirth) {
-		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+
 		this.timeOfBirth = LocalDate.parse(timeOfBirth, formatter);
 	}
 
 	public String getTimeOfBirth() {
-		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 		return this.timeOfBirth.format(formatter);
 	}
 

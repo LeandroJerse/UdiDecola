@@ -4,7 +4,7 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.Arrays;
 
-class Purchase {
+public class Purchase {
     private String purchaseType;
     private String item;
     private LocalDateTime dateTime;

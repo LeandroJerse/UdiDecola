@@ -3,7 +3,7 @@ package utilities;
 public class cpfChecker {
     //Checa se o CPF tem dígitos, se são onze e se não são todos iguais
 
-    private boolean checker(String cpf) {
+    public boolean checker(String cpf) {
         if (cpf == null || !cpf.matches("\\d{11}") || cpf.matches("(\\d)\\1{10}")) {
             return false;
         }

@@ -13,10 +13,16 @@ public class ClientAccount extends TadClientAccount {
 	
 	public ClientAccount(String fullName, String cPF, String fullAdress, LocalDate birthday) {
 		super(fullName, cPF, fullAdress, birthday);
+		this.fullAdress=fullName;
+		this.CPF = cPF;
+		this.fullAdress = fullAdress;
+		this.birthday = birthday;
+		this.vipPoint = 0;
+
 
 	}
 	
-	public void setPurchasesLog(Purchase newPurchase) {
+	public void increasePurchasesLog(Purchase newPurchase) {
 		this.purchasesLog.purchases.add(newPurchase);
 	}
 	

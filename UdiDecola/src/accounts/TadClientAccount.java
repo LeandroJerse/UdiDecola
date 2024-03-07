@@ -11,7 +11,6 @@ public abstract class TadClientAccount {
 	protected LocalDate birthday;
 	
 	public TadClientAccount(String fullName, String cPF, String fullAdress, LocalDate birthday) {
-		super();
 		this.fullName = fullName;
 		CPF = cPF;
 		this.fullAdress = fullAdress;
